@@ -7,10 +7,10 @@ import "./Header.css";
 const Header = (props) => {
   return (
     <Fragment>
-      <Header className="header">
+      <header className="header">
         <h1>Cafe Tapari</h1>
         <HeaderCartButton onClick={props.onShowCart} />
-      </Header>
+      </header>
       <div className="main-image">
         <img
           src={mealImage}
